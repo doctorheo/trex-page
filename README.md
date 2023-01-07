@@ -22,6 +22,5 @@
         - (실패) 게임에 실패하면 익룡이 ‘ㅑ켜ㅑ캬ㅑ캬캬캬ㅑㅋ캬턑ㅋ캬ㅑ캬캬캬캬ㅑ캬캬캬캬캬캬캬ㅑㅋ’라고 하며 배경이 빨갛게 뒤덮인다.
         ![캬캬캬](kakaka.png)
 
-<font size="4">[게임하기(비공개)](https://scratch.mit.edu/projects/780916382/)</font>
 
  {% include test.html %}

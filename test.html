@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <a onmouseenter="mouseEnter(event)" onmouseleave="mouseLeave(event)">반가워요</a>
+    <div>
+        <a onmouseenter="mouseEnter(event)" onmouseleave="mouseLeave(event)">반가워요</a>
+    </div>
     <script>
         function mouseEnter(event) {
             event.target.style.color = '#F00';
@@ -15,6 +17,14 @@
 
         function mouseLeave(event) {
             event.target.style.color = '#00F';
+        }
+    </script>
+    <div>
+        <a onclick="mouseClick(event)">종료</a>
+    </div>
+    <script>
+        function mouseClick(event) {
+            window.close();
         }
     </script>
 </body>
